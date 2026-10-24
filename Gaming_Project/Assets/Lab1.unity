@@ -266,8 +266,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 91860324}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 25.8, y: 2.4, z: 0}
-  m_LocalScale: {x: 2.1873, y: 1.9505, z: 0}
+  m_LocalPosition: {x: 133.1, y: -1.4, z: 0}
+  m_LocalScale: {x: 0.81298214, y: 0.8125093, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -569,7 +569,7 @@ MonoBehaviour:
   Target: {fileID: 1603976706}
   Cameraspeed: 6
   minX: -7
-  maxX: 82.4
+  maxX: 312.7
   minY: 0
   maxY: 20
 --- !u!114 &207325151
@@ -909,7 +909,7 @@ GameObject:
   - component: {fileID: 670270819}
   - component: {fileID: 670270818}
   - component: {fileID: 670270822}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Terrain Sliced (16x16)_3 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1195,7 +1195,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.9267502, y: -1.3037605}
+  m_Offset: {x: -0.048456192, y: -2.133733}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -1206,7 +1206,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.8535004, y: 2.4701881}
+  m_Size: {x: 0.9030876, y: 0.8102431}
   m_EdgeRadius: 0
 --- !u!4 &801187262
 Transform:
@@ -1216,7 +1216,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 801187260}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 35.4, y: 0.6, z: -10.801769}
+  m_LocalPosition: {x: 135.96, y: 0.57, z: -10.801769}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6881,7 +6881,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.9267502, y: -1.4470437}
+  m_Offset: {x: 0.07614899, y: -2.0232577}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -6892,7 +6892,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.8535004, y: 2.183722}
+  m_Size: {x: 1.152298, y: 1.0312939}
   m_EdgeRadius: 0
 --- !u!4 &1543418082
 Transform:
@@ -6902,7 +6902,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1543418080}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -17.8, y: 2, z: -10.801769}
+  m_LocalPosition: {x: 85.45, y: 0.31, z: -10.801769}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7321,7 +7321,7 @@ GameObject:
   - component: {fileID: 1900694622}
   - component: {fileID: 1900694621}
   - component: {fileID: 1900694624}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Terrain Sliced (16x16)_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}

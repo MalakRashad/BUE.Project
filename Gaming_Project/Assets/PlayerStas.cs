@@ -6,8 +6,10 @@ using UnityEngine;
 
 public class PlayerStas : MonoBehaviour
 {
-    public int health=3;
-    public int lives=3;
+    public static int health=3;
+    public static int lives=3;
+    public static int score=0;
+    public static bool hasHeart=false;
     private float flickertime=0f;
     public float flickerduration=0.1f;
     private SpriteRenderer sr;

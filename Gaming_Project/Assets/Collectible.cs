@@ -17,7 +17,7 @@ public class Collectible : MonoBehaviour
     {
         
     }
-    void OnTriggerenter2D(Collider2D other)
+    void OnTriggerEnter2D(Collider2D other)
     {
         if(other.tag=="Player")
         {
@@ -25,6 +25,7 @@ public class Collectible : MonoBehaviour
         AudioManager.Instance.PlayRandomSFX(coin1,coin2);
         Debug.Log("Score: "+PlayerStas.score);
         Destroy(gameObject);
+        Debug.Log(gameObject);
         }
     }
 }

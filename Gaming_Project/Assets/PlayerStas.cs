@@ -1,7 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
-
+using UnityEngine.UI;
 using UnityEngine;
+using TMPro;
+using System.Reflection;
+
 
 
 public class PlayerStas : MonoBehaviour
@@ -16,6 +19,9 @@ public class PlayerStas : MonoBehaviour
     public bool isTmmune= false;
     private float immunityTime=0f;
     public float immunityDuration=1.5f;
+    public TextMeshProUGUI scoreUI;
+    public TextMeshProUGUI livesUI;
+    public Image healthBar;
 
     void Start()
     {
@@ -35,6 +41,8 @@ public class PlayerStas : MonoBehaviour
                 sr.enabled=true;
             }
         }
+        scoreUI.text=" "+ score;
+        livesUI.text= " "+lives;
     }
     void SpriteFlicker()
     {
@@ -53,6 +61,7 @@ public class PlayerStas : MonoBehaviour
         if(isTmmune==false)
         {
             health = health - damage;
+            healthBar.fillAmount = health/3f;
             if(health<0)
             {
                 health=0;
@@ -61,6 +70,7 @@ public class PlayerStas : MonoBehaviour
             {
                 FindObjectOfType<LevelManager>().RespawnPlayer();
                 health=3;
+                healthBar.fillAmount = health/3f;
                 lives--;
             }
             else if(lives==0 && health==0)

@@ -17,8 +17,11 @@ public class NextLevel : MonoBehaviour
         
     }
     
-    public void OnTriggerEnter2D()
+    public void OnTriggerEnter2D(Collider2D other)
     {
-        SceneManager.LoadScene(0);
+        if(other.tag=="Player" && PlayerStas.hasHeart==true)
+        {
+        SceneManager.LoadScene(2);
+        }
     }
 }

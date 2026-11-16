@@ -16,7 +16,7 @@ public class collectHeart : MonoBehaviour
         
     }
 
-    void OnTriggerenter2D(Collider2D other)
+    void OnTriggerEnter2D(Collider2D other)
     {
         if(other.tag=="Player")
         {
